@@ -3,6 +3,8 @@
 
 A simple Lost and Found website developed for Lovely Professional University (LPU) students.
 
+🔗 **Live Demo:** https://lpu-lost-and-found.onrender.com
+
 This website helps students report lost belongings, report found items, and browse reports submitted by students.
 
 ## ✨ Features
