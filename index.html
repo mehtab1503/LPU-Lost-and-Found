@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LPU Lost & Found</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>LPU Lost & Found</h1>
+<p>Find What You Lost, Return What You Found</p>
+</header>
+
+<main>
+
+<section class="form-section">
+<h2>Report a Lost or Found Item</h2>
+
+<form id="reportForm">
+
+<label>Item Name</label>
+<input type="text" id="itemName" placeholder="Enter item name" required>
+
+<label>Category</label>
+<select id="category" required>
+<option value="">Select Category</option>
+<option>Electronics</option>
+<option>Books</option>
+<option>Clothing</option>
+<option>Accessories</option>
+<option>Other</option>
+</select>
+
+<label>Report Type</label>
+<select id="reportType" required>
+<option value="">Select Type</option>
+<option>Lost</option>
+<option>Found</option>
+</select>
+
+<label>Location</label>
+<input type="text" id="location" placeholder="Example: Block 32, Library" required>
+
+<label>Date</label>
+<input type="date" id="date" required>
+
+<label>Description</label>
+<textarea id="description" placeholder="Write a few details about the item" required></textarea>
+
+<label>Your Contact Information</label>
+<input type="text" id="contact" placeholder="Phone number or email" required>
+
+<button type="submit">Submit Report</button>
+
+</form>
+</section>
+
+<section class="items-section">
+<h2>Reported Items</h2>
+<p>Browse items reported by students.</p>
+
+<label>Show:</label>
+<select id="filter">
+<option value="All">All Reports</option>
+<option value="Lost">Lost Items</option>
+<option value="Found">Found Items</option>
+</select>
+
+<div id="itemList">
+<p>No reports found.</p>
+</div>
+
+</section>
+
+</main>
+
+<footer>
+<p>LPU Lost & Found | Student Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
